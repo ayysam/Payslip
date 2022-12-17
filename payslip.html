@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>BULLETIN DE PAIE</h1>
+    </div>
+    <div class="raisonsocial">
+        <h2>raison sociale</h2>
+    </div>
+    <section>
+        <div class="section1">
+            <form class="form1" action="">
+                <div class="input">
+                    <label for="">Identifiant Unique:</label>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <label for="">N° Affiliation:</label>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <label for="">Adresse:</label>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <label for="">Code Postal:</label>
+                    <input type="text">
+                </div>
+            </form>
+            <p>Nom et prénom</p>
+        </div>
+        <div class="section2">
+            <div class="rigthinput">
+                <label class="rightlabel" for="">Periode de Paie</label>
+                <input type="text" value="July-2022">
+            </div>
+            <form class="form2" action="">
+                <div class="inputlabel">
+                    <label for="">Matricule salarié:</label>
+                    <input class="inputfullwidth" type="text" value="M000">
+                </div>
+                <div class="flexinput">
+                    <div class="inputlabel">
+                        <label for="">N° Affiliation:</label>
+                        <input type="text" value="">
+                    </div>
+                    <div class="inputlabel">
+                        <label for="">CIN:</label>
+                        <input type="text" value="">
+                    </div>
+                </div>
+                <div class="inputlabel">
+                    <label for="">Emploi:</label>
+                    <input class="inputfullwidth margin" type="text" value="">
+                </div>
+                <div class="flexinput">
+                    <div class="inputlabel">
+                        <label for="">Relation de travail:</label>
+                        <input type="text" value="">
+                    </div>
+                    <div class="inputlabel">
+                        <label for="">Parents à charge:</label>
+                        <input type="number" value="0">
+                    </div>
+                </div>
+                <div class="flexinput">
+                    <div class="inputlabel">
+                        <label for="">Chef de Famille:</label>
+                        <input type="number" value="0">
+                    </div>
+                    <div class="inputlabel">
+                        <label for="">Enfants à charge:</label>
+                        <input type="number" value="4">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="row">
+        <div class="column">
+            <table>
+                <tr>
+                    <th class="bold" colspan="4">Désignation</th>
+                    <th class="bold">Nombre</th>
+                    <th class="bold">Base</th>
+                    <th class="bold">Taux</th>
+                    <th class="bold">Gain</th>
+                    <th class="bold">Retenue</th>
+                </tr>
+
+                <tr>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class=" noborderright noborderleft"></td>
+                    <td class="noborderright noborderleft"></td>
+                </tr>
+                
+                <tr>
+                    <td class="bold" colspan="2">Salaire de base</td>
+                    <td class="center bold">j/h</td>
+                    <td class="center bold">26</td>
+                    <td class="center nobordredcell">26.00</td>
+                    <td class="center nobordredcell">25.545</td>
+                    <td class="center nobordredcell"></td>
+                    <td class="center nobordredcell">661.808</td>
+                    <td class="center nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop" colspan="4">Prime de présence</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">2.080</td>
+                    <td class="nobordredcell">100%</td>
+                    <td class="nobordredcell">2.080</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop" colspan="4">Prime de transport</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">36.112</td>
+                    <td class="nobordredcell">100%</td>
+                    <td class="nobordredcell">36.112</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop" colspan="4">Prime sur objectif (variable)</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">100%</td>
+                    <td class="nobordredcell">_</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop" colspan="4">Prime exceptionnelle</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft bold noborderbottomtop italique" colspan="4">Assurance Groupe</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">100.000</td>
+                    <td class="nobordredcell"></td>
+                    <td class="grey">100.000</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft bold noborderbottomtop italique" colspan="4">Ticket resto</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">30.000</td>
+                    <td class="nobordredcell"></td>
+                    <td class="grey">30.000</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft bold noborderbottomtop italique" colspan="4">Prime Eid El Fitr</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">80.000</td>
+                    <td class="nobordredcell"></td>
+                    <td class="grey">80.000</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr class="emptyrow">
+                    <td class="noborderbottomtop" colspan="4"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="grey">_</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr class="emptyrow">
+                    <td class="noborderbottomtop" colspan="4"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr class="emptyrow">
+                    <td class="noborderbottomtop" colspan="4"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr class="emptyrow">
+                    <td class="noborderbottomtop" colspan="4"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell">_</td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder"></td>
+                    <td class="noborder"></td>
+                    <td class="bold grey noborderright borderwidth italique" colspan="5">Salaire Brut</td>
+                    <td class="bold grey noborderleft borderwidth"> 910.000</td>
+                    <td class="noborder"> </td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr class="grey bold  ">
+                    <td colspan="5" class="borderwidth">Salaire Brut cotisable</td>
+                    <td class="borderwidth noborderleft ">700.000</td>
+                    <td class="borderwidth noborderleft noborderright">9.18%</td>
+                    <td class="redcolor borderwidth">Retenue CNSS</td>
+                    <td class="borderwidth"> 64.260</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder"></td>
+                    <td class="noborderleftbottom"></td>
+                    <td class="noborderright"></td>
+                    <td class="noborderleft toright italique">Assurance Groupe</td>
+                    <td class="noborderbottom"></td>
+                    <td>100.000</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborderleftbottom nobordertop"></td>
+                    <td class="noborderright"></td>
+                    <td class="noborderleft toright italique">Ticket resto</td>
+                    <td class="noborderbottomtop"></td>
+                    <td>30.000</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborderleftbottom nobordertop"></td>
+                    <td class="noborderright"></td>
+                    <td class="noborderleft toright italique">Prime Aïd El fîtr</td>
+                    <td class="noborderbottomtop"></td>
+                    <td>80.000</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborderleftbottom nobordertop"></td>
+                    <td class="noborderright "></td>
+                    <td class="noborderleft toright italique">Montants Non cotisable</td>
+                    <td class="noborderbottomtop"></td>
+                    <td>_</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborderleftbottom nobordertop"></td>
+                    <td class="noborderright"></td>
+                    <td class="noborderleft"></td>
+                    <td class="nobordertop"></td>
+                    <td>_</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop borderwidth"></td>
+                    <td class="noborderbottomtop noborderleft noborderright "></td>
+                    <td class="  noborderleft noborderbottom"></td>
+                    <td class="toright bold  noborderright borderwidth toright italique"> Montants Non cotisable</td>
+                    <td class="noborderright noborderleft borderwidth"></td>
+                    <td class="noborderleft borderwidth bold">210.000</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr class="grey bold ">
+                    <td colspan="5" class="borderwidth italique">Salaire Brut imposable</td>
+                    <td class="borderwidth noborderleft ">845.740</td>
+                    <td class="borderwidth noborderleft noborderright"></td>
+                    <td class="redcolor borderwidth">IRPP</td>
+                    <td class="borderwidth">80.903</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborderleftbottom nobordertop"></td>
+                    <td class="noborderright "></td>
+                    <td class="noborderleft "></td>
+                    <td class="noborderbottomtop"></td>
+                    <td>0.000</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborderleftbottom nobordertop"></td>
+                    <td class="noborderright"></td>
+                    <td class="noborderleft emptyrow toright italique">Montants Non imposable</td>
+                    <td class="nobordertop"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop borderwidth"></td>
+                    <td class="noborderbottomtop noborderleft noborderright "></td>
+                    <td class="  noborderleft noborderbottom"></td>
+                    <td class="toright bold  noborderright borderwidth toright italique"> Montants Non imposable</td>
+                    <td class="noborderright noborderleft borderwidth"></td>
+                    <td class="noborderleft borderwidth bold">0.000</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop borderwidth" colspan="4"></td>
+                    <td class="noborder  nobordertop borderwidth"></td>
+                    <td class="noborder  nobordertop borderwidth"></td>
+                    <td class="noborder  nobordertop borderwidth"></td>
+                    <td class="noborder  nobordertop borderwidth"></td>
+                    <td class="noborder  nobordertop borderwidth"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborderright noborderleft nobordertop borderwidth" colspan="4"></td>
+                    <td class="noborderright noborderleft  nobordertop borderwidth"></td>
+                    <td class="noborderright noborderleft  nobordertop borderwidth"></td>
+                    <td class="noborderright noborderleft  nobordertop borderwidth"></td>
+                    <td class="noborderright noborderleft  nobordertop borderwidth"></td>
+                    <td class="noborderright noborderleft  nobordertop borderwidth"></td>
+                </tr>
+
+                <tr class="bold">
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="borderwidth noborderright nobordertop  grey"></td>
+                    <td class="borderwidth noborderleft noborderright nobordertop toright grey italique">CUMULS</td>
+                    <td class="borderwidth noborderleft noborderright nobordertop grey"></td>
+                    <td class="borderwidth noborderleft noborderright nobordertop grey"></td>
+                    <td class="borderwidth noborderleft nobordertop grey"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborderbottom toright bold" colspan="4">Brut</td>
+                    <td class="noborderbottom"></td>
+                    <td class="noborderbottom"></td>
+                    <td class="noborderbottom"></td>
+                    <td class="noborderbottom bold">910.000</td>
+                    <td class="noborderbottom"></td>
+                </tr>
+
+
+                <tr>
+                    <td class="noborderbottomtop toright bold" colspan="4">CNSS</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell bold">64.260</td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop toright bold" colspan="4">IRPP</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell bold">80.809</td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop toright bold" colspan="4">AVANCES</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft noborderbottomtop toright bold" colspan="4">PRÊT</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="bold toleft  noborderbottomtop toright" colspan="4">Retenue ticket restauration</td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="noborderbottomtop"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr>
+                    <td class="toleft  noborderbottomtop toright" colspan="4"><span
+                            class="bold">CONTRIBUTION-</span><span class="italique">Art.53-loi 66 du 18-12-2017</span>
+                    </td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="noborderbottomtop"></td>
+                    <td class="nobordredcell bold">7.278 </td>
+                </tr>
+
+                <tr>
+                    <td class="toleft  noborderbottomtop toright" colspan="4"><span
+                            class="bold">CONTRIBUTION-</span><span class="italique">écret-loi n° 2020-5 du 14 avril
+                            2020</span></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="nobordredcell"></td>
+                    <td class="noborderbottomtop"></td>
+                    <td class="nobordredcell"></td>
+                </tr>
+
+                <tr class="emptyrow">
+                    <td class="nobordertop toright" colspan="4"></td>
+                    <td class="nobordertop"></td>
+                    <td class="nobordertop"></td>
+                    <td class="nobordertop"></td>
+                    <td class="nobordertop">-</td>
+                    <td class="nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="borderwidth bold toright italique" colspan="4">Total</td>
+                    <td class="noborderright noborderleft borderwidth"></td>
+                    <td class="noborderright noborderleft borderwidth"></td>
+                    <td class=" noborderleft borderwidth"></td>
+                    <td class="borderwidth noborderleft bold">910.000 </td>
+                    <td class="borderwidth noborderleft bold">152.442</td>
+                </tr>
+
+
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborderright borderwidth bold toright" colspan="3">NET IMPOSABLE :</td>
+                    <td class="noborderleft borderwidth bold">845.740</td>
+                    <td class="noborderright noborderleft noborderbottomtop borderwidth"></td>
+                    <td class="noborderright borderwidth grey bold"> NET A PAYER :</td>
+                    <td class="noborderleft noborderright borderwidth grey" colspan="1" class="toright"></td>
+                    <td class="noborderleft noborderright borderwidth grey bold">757.558 TND</td>
+                    <td class="noborderleft borderwidth grey"> </td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop toright bold underlined" colspan="3">Cachet & Signature</td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop" colspan="1"></td>
+                    <td class="noborder nobordertop  bold underlined">Bénéficiaire</td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+
+                <tr>
+                    <td class="noborder nobordertop" colspan="4"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                    <td class="noborder nobordertop"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
